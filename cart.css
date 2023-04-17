@@ -1,0 +1,29 @@
+.nav-link{
+    color: #CF4B32;
+  }
+  
+  .nav-link :active{
+    color: black;
+  }
+  
+
+.line{
+    border: 1px solid #D5D5D5;
+    width: 100%;
+}
+
+.btn-cart{
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #EE7D67;
+    color: #fff;
+    border: none;
+    width: 100%;
+}
+
+.btn-outline-secondary{
+    color: #EE7D67;
+    background-color: #fff;
+    border-color: #EE7D67;
+
+}

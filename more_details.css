@@ -1,0 +1,90 @@
+.nav-link{
+    color: #CF4B32;
+  }
+  
+.linker{
+    font-family: raleway;
+    color: gray;
+    text-decoration: none;
+}
+
+.linker a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    color: black;
+  }
+
+.page-header{
+    font-family: raleway;
+    font-style: italic;
+}
+
+.previous-price{
+    text-decoration: line-through;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-right: 20px;
+}
+
+.new-price{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+  
+.product-code{
+    font-family: raleway;
+
+}
+
+.product-description{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3E343A;
+    font-weight: lighter;
+
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #999;
+    outline: none;
+    transition: border-color 0.2s;
+ }
+
+input[type="radio"]:checked  {
+    background-color: #000; /* set the background color of the label when checked */
+ }
+
+ .btn-cart,.bottom-button{
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #EE7D67;
+    color: #fff;
+    border: none;
+    width: 100%;
+ }
+
+ .btn-buy{
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    width: 100%;
+ }
+
+ .button-container {
+    position: fixed;
+    left: 100%-0px;
+    right: 5px;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+  }

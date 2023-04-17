@@ -1,0 +1,143 @@
+
+
+.nav-link{
+  color: #CF4B32;
+}
+
+.nav-link :active{
+  color: black;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 30%;
+    left: 19%;
+    width: 20%;
+    height: 25%;
+    background-color: #CF4B32;
+    
+  }
+  .overlay-text{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+  
+  .line {
+    width: 80%;
+    border-top: 2px solid #ffffff; /* Set your desired line color here */
+    margin: 105px 0;
+  }
+
+  .btn-shop-now{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: larger;
+  }
+  
+  .as-seen-on-celebrities {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    font-weight: lighter;
+    font-style: oblique;
+  }
+  
+  .as-seen-on-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .as-seen-on-name {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .card-text{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+  .card-line{
+    border-top: 4px solid #CF4B32;
+    width: 10%;
+    position: relative;
+    left: 50%;
+    opacity: 1;
+
+  }
+
+  .authorized h2{
+    padding: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #ffffff;
+
+  }
+
+ 
+
+  .line1{
+    border-top: 2px solid #ffffff;
+    width: 10%;
+    position: relative;
+    left: 0%;
+    opacity: 1;
+
+  }
+
+
+
+
+  .overlay-text1{
+    position: relative;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+  
+  .copyright{
+    font-family: raleway;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .button-container {
+    position: fixed;
+    left: 100%-0px;
+    right: 5px;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bottom-button {
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #CF4B32;
+    color: #fff;
+    border: none;
+  }
+
+modal-header {
+  border-bottom: none;
+}
+ 

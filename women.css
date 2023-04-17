@@ -1,0 +1,42 @@
+.nav-link{
+  color: #CF4B32;
+}
+
+.nav-link :active{
+  color: black;
+}
+
+.copyright{
+    font-family: raleway;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .button-container {
+    position: fixed;
+    left: 100%-0px;
+    right: 5px;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bottom-button,.btn-link,.btn-cart {
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #EE7D67;
+    color: #fff;
+    border: none;
+    width: 100%;
+  }
+  
+  .custom-header{
+    border-bottom: none;
+  }
+
+  .carousel-control-prev-icon,.carousel-control-next-icon{
+    color: black;
+  }
+  

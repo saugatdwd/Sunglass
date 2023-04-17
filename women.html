@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./women.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+ 
+    <title>Document</title>
+</head>
+<body>
+    <!-- First Container with logo and text -->
+    <div class="container-fluid text-center" style="justify-items: center;">
+        <img src="/assets/icons/bootstrap.svg"  width="32" height="32">
+        <h3>SUNGLASSES SHOP</h3>
+    </div>
+
+    <!-- navbar -->
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-10">
+
+                <nav class="navbar navbar-expand-lg navbar-light  ">
+                    <ul class="navbar-nav nav-fill mr-auto mt-2 " style="width: 100%;">
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">Home </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="women.html">WOMENS </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">MENS </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">SALE </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">CONTACT </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><i class="bi bi-person-circle"></i> Log In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html"><i class="bi bi-basket3-fill"></i></a>
+                          </li>
+                        </div>
+                </nav>
+            </div>
+    </div>
+
+
+    <!-- Women's SUNGLASSES -->
+
+      <div class="img-container" style="margin-top: 30px;">
+          <center>
+             <img src="./women-sunglasses.webp" style="width: 1020px; height: 340px;" >
+          
+            
+
+            </center>
+             </div>
+          
+    
+    
+    <div class="container" style="max-width: 1020px; margin-top: 30px;">
+
+        <div class="row">
+
+
+            <div class="col col-sm-3" style="font-family: raleway; color: solid black; font-weight: bold;">
+                
+                <p>Filter by</p>
+                <hr class="filter-line">
+                <div class="price" class="custom-range" style=" display: flex; justify-content: space-between;">
+                    <p style="align-items: left;">Price</p>
+                    <p style="align-items: right;">-</p>
+                </div>
+                <input type="range" id="price-range" name="price-range" min="0" max="100" value="0" step="10" style="width: 100%;">
+                <hr class="filter-line">
+                <div class="color" class="custom-range" style=" display: flex; justify-content: space-between;">
+                    <p style="align-items: left;">Color</p>
+                    <p style="align-items: right;">+</p>
+                </div>
+                <hr class="filter-line">
+    
+            </div>
+    
+            <div class="col col-sm-9" >
+                <div class="sort" style="position: relative; left: 88%; margin-bottom: 30px; font-family: raleway;">
+    
+                    <label for="sort-by"></label>
+                <select id="sort-by" name="sort-by">
+
+                    <option value="" disabled selected>Sort By</option>
+                    <option value="name">Name</option>
+                    <option value="date">Date</option>
+                    <option value="price">Price</option>
+                    <option value="relevance">Relevance</option>
+                 </select>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="card border-0 position-relative">
+                          <div class="position-absolute" style="top: 0;left:0;">
+                            Best Seller
+                          </div>
+                          <img src="./image1.jpeg" class="card-img-top" alt="...">
+                          <a href="./more_details.html" class="card-body" style="text-decoration: none;">
+                            <p class="card-text">Yuzu Sunglasses</p>
+                            <p class="card-text">$260.00</p>
+                            <button  type="submit" class="btn btn-cart" data-bs-toggle="modal" data-bs-target="#ModalCenter" style="width: 100%;">
+                              Add to cart
+                             </button>
+                        
+                           </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card border-0">
+                          <img src="./imae2.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text">Luka Sunglasses</p>                    
+                            <p class="card-text">$220.00</p>
+                            <button class="btn btn-cart" type="button" style="width: 100%; background-color: #EE7D67; color: white;">Add to cart</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card border-0">
+                          <img src="./image3.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text">Stromboli Sunglasses</p>                            
+                            <p class="card-text">$230.00</p>
+                            <button class="btn btn-cart" type="button" style="width: 100%; background-color: #EE7D67; color: white;">Add to cart</button>
+                          </div>
+                        </div>
+
+                 </div>
+                    </div>
+                        <div class="row" style="margin-top: 10px;">
+                            
+                            <div class="col-md-4 ">
+                                <div class="card border-0">
+                                  <img src="./image1.jpeg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <p class="card-text">Yuzu Sunglasses</p>                                    
+                                    <p class="card-text">$260.00</p>
+                                    <button class="btn btn-cart" type="button" style="width: 100%; background-color: #EE7D67; color: white;">Add to cart</button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 ">
+                                <div class="card border-0">
+                                  <img src="./imae2.jpeg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <p class="card-text">Luka Sunglasses</p>                                    
+                                    <p class="card-text">$220.00</p>
+                                    <button class="btn btn-cart" type="button" style="width: 100%; background-color: #EE7D67; color: white;">Add to cart</button>
+                                  </div>
+                                </div>
+                              </div>
+                            <div class="col-md-4">
+                                <div class="card border-0">
+                                  <img src="./image3.png" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <p class="card-text">Stromboli Sunglasses</p>                                    
+                                    <p class="card-text">$230.00</p>
+                                    <button class="btn btn-cart" type="button" style="width: 100%; background-color: #EE7D67; color: white;">Add to cart</button>
+                                  </div>
+                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-top: 10px;">
+
+                            <div class="col-md-4 ">
+                                <div class="card border-0">
+                                  <img src="./image1.jpeg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <p class="card-text">Yuzu Sunglasses</p>                                    
+                                    <p class="card-text">$260.00</p>
+                                    <button class="btn btn-cart" type="button" style="width: 100%; background-color: #EE7D67; color: white;">Add to cart</button>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 ">
+                                <div class="card border-0">
+                                  <img src="./imae2.jpeg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <p class="card-text">Luka Sunglasses</p>                                    
+                                    <p class="card-text">$220.00</p>
+                                    <button class="btn btn-cart" type="button" style="width: 100%; background-color: #EE7D67; color: white;">Add to cart</button>
+                                  </div>
+                                </div>
+                              </div>
+                            
+                        </div>
+            </div></div>
+    </div>
+
+            
+
+     <!-- footer -->
+
+
+     <div class="col col-sm-12">
+
+       <div class="container-fluid" style="background-color: #FAFAFA; margin-top: 50px; justify-content: space-between; ">
+          <p class="copyright" style="height: 100px; align-items: left;">&copy; 2035 by SUNGLASSES SHOP.
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+          </p>
+     </div>
+       
+
+    </div>
+
+    
+    <div class="button-container">
+        <button class="bottom-button"><i class="bi bi-messenger"></i></button>
+      </div>
+        
+        
+        
+    
+        
+    <!-- modal  -->
+    <div class="modal fade modal-lg" id="ModalCenter" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header custom-header">
+
+          
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+           <div class="row">
+
+
+             <div class="col col-sm-5">
+ 
+               <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                 <!-- carousel content goes here -->
+                 <div class="carousel-inner">
+                   <div class="carousel-item active">
+                     <img src="./image1.jpeg" class="d-block w-100" alt="Slide 1">
+                   </div>
+                   <div class="carousel-item">
+                     <img src="./imae2.jpeg" class="d-block w-100" alt="Slide 2">
+                   </div>
+                   <div class="carousel-item">
+                     <img src="./image3.png" class="d-block w-100" alt="Slide 3">
+                   </div>
+                 </div>
+                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev"">
+                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                   <span class="visually-hidden">Previous</span>
+                 </button>
+                 <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                   <span class="visually-hidden">Next</span>
+                 </button>
+ 
+                 <ul class="carousel-indicators">
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                </ul>
+                
+               </div>
+ 
+             </div>
+             
+             <div class="col col-sm-6" style="font-family: Georgia, 'Times New Roman', Times, serif; font-style: italic;">
+ 
+               <h3 class="page-header">Yuzu Sunglasses</h3>
+               <h3>$260</h3>
+               <p>SKU: 0005</p>
+               
+               <p>Quantity</p>
+               <input type="number" class="form-control" placeholder="1" style="width: 30%;">
+
+               <br>
+ 
+              <div class="btn btn-cart">
+
+                Add to cart
+
+              </div>
+
+              <a href="#" style="font-family: Arial, Helvetica, sans-serif; color: gray; padding-top: 50px;"><u> View More Details</u></a>
+
+             </div>
+                       
+                       
+           
+                  
+               </div>
+             </div>
+           
+         </div>
+       </div>
+           </div>
+
+    
+    
+    
+</body>
+</html>
